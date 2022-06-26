@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://bucolic-tartufo-eabc1d.netlify.app/`,
   },
   plugins: [
+    `gatsby-plugin-feed`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
