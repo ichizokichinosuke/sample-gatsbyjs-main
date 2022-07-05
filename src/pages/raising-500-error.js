@@ -38,6 +38,7 @@ export async function getServerData() {
     //     props: await res.json(),
     //   }
     // } catch (error) {
+    throw new Error("Come on! Runtime Error!!")
     return {
     status: 500,
     headers: {},
