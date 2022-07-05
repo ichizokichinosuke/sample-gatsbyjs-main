@@ -3,10 +3,12 @@ module.exports = {
     title: `Sample Gatsby.js Main by gatsby-starter-default`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@kenshiro.ata`,
-    siteUrl: `https://bucolic-tartufo-eabc1d.netlify.app/`,
+    // siteUrl: `https://bucolic-tartufo-eabc1d.netlify.app/`,
+    siteUrl: `https://samplegatsbyjsmainmain.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-client-side-redirect`,
+    // `gatsby-plugin-feed`,
     // {
     //   resolve: `gatsby-plugin-feed`,
     //   options: {
