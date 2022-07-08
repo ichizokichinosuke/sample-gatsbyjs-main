@@ -11,7 +11,12 @@ exports.createPages = async ({ actions }) => {
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
+  const { createNodeField, createRedirect } = actions;
+  createRedirect({
+    fromPath: "redirect-from",
+    toPath: "/redirect-destination",
+    isPermanent: false
+  })
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
