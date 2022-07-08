@@ -5,8 +5,10 @@ module.exports = {
     author: `@kenshiro.ata`,
     // siteUrl: `https://bucolic-tartufo-eabc1d.netlify.app/`,
     siteUrl: `https://samplegatsbyjsmainmain.gatsbyjs.io/`,
+    // trailingSlash: `never`,
   },
   plugins: [
+    // `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
