@@ -3,6 +3,10 @@
 
 https://samplegatsbyjsmainmain.gatsbyjs.io/
 
+基となっているリポジトリ
+
+https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-default
+
 ## 🚀 Quick start
 
 1.  **Install gatsby**
@@ -47,6 +51,8 @@ https://www.gatsbyjs.com/docs/how-to/adding-common-features/add-404-page/
 500エラー時に表示するページを ```src/pages/500.js``` に作成した。
 
 エラーを ```src/pages/raising-500-error.js``` の ```getServerData関数内```で発生させている。
+
+デプロイサイトの上部、Example pagesのうち、Raising 500 Error をクリックすると確認可能。
 
 **参考**
 
