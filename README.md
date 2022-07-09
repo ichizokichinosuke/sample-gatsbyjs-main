@@ -1,4 +1,7 @@
 # Gatsby.js Sample Main
+**デプロイサイトリンク**
+
+https://samplegatsbyjsmainmain.gatsbyjs.io/
 
 ## 🚀 Quick start
 
@@ -27,3 +30,35 @@
 Gatsby Cloudにデプロイする。
 以下のボタンをクリックし、会員登録した後に Add a site ボタンを押し、画面に表示されている指示に従う。
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard)
+
+## サンプルコード
+
+### 40x対応
+404エラー時に表示するページを ```src/pages/404.js``` に作成した。
+
+特に設定を行う必要はない。
+
+**参考**
+
+https://www.gatsbyjs.com/docs/how-to/adding-common-features/add-404-page/
+
+
+### 50x対応
+500エラー時に表示するページを ```src/pages/500.js``` に作成した。
+
+エラーを ```src/pages/raising-500-error.js``` の ```getServerData関数内```で発生させている。
+
+**参考**
+
+https://www.gatsbyjs.com/docs/how-to/adding-common-features/add-500-page/
+
+### sitemap対応
+プラグイン[gatsby-plugin-sitemap](https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/)を使用して実現。
+
+手順はリンク先の通り。
+
+**デプロイサイトのサイトマップリンク**
+
+https://samplegatsbyjsmainmain.gatsbyjs.io/sitemap/sitemap-0.xml
+### 単体テスト
+
