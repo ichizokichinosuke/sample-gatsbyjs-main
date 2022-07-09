@@ -5,7 +5,7 @@ module.exports = {
     author: `@kenshiro.ata`,
     // siteUrl: `https://bucolic-tartufo-eabc1d.netlify.app/`,
     siteUrl: `https://samplegatsbyjsmainmain.gatsbyjs.io/`,
-    // trailingSlash: `never`,
+    trailingSlash: `never`,
   },
   plugins: [
     // `gatsby-plugin-remove-trailing-slashes`,
