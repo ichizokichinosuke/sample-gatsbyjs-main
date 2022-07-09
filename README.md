@@ -61,4 +61,8 @@ https://www.gatsbyjs.com/docs/how-to/adding-common-features/add-500-page/
 
 https://samplegatsbyjsmainmain.gatsbyjs.io/sitemap/sitemap-0.xml
 ### 単体テスト
+Jestを使用。[公式ドキュメント](https://www.gatsbyjs.com/docs/how-to/testing/unit-testing/)通りに実装。
 
+**参考**
+
+https://www.gatsbyjs.com/docs/how-to/testing/unit-testing/
